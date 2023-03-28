@@ -7,7 +7,7 @@ This is a simple and effective to-do list app that allows you to manage your tas
 - Dark mode style for a modern and sleek look
 - Easy to use interface for adding and managing tasks
 - Ability to add priority to tasks and rearrange the list
-- Option to delet completed tasks
+- Option to delete completed tasks
 
 ## Getting Started
 
