@@ -16,4 +16,5 @@ To get started with the to-do list app, simply clone the repository and open the
 ## Usage
 
 To add a task, simply type the task into the input field, then add a priority number and click the add button. 
+
 To rearrange the list, simply click the 'Reorganise priority List' button.
