@@ -1,0 +1,124 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set body background and font */
+body {
+  background-color: #111;
+  color: #eee;
+  font-family: Arial, sans-serif;
+}
+
+/* Style container */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Style header */
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Style h1 */
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #eee;
+}
+
+/* Style input group */
+.input-group {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+/* Style input fields */
+input[type="text"],
+input[type="number"] {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  background-color: #444;
+  color: #eee;
+}
+
+input[type="text"] {
+  text-align: left;
+  flex-grow: 1;
+}
+
+input[type="number"] {
+  text-align: left;
+  font-weight: bolder;
+  width: 150px;
+}
+
+/* Style button */
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: #eee;
+  cursor: pointer;
+}
+ 
+button:hover {
+  background-color: #555;
+ }
+/* Style list */
+#list {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+#list li {
+  background-color: #333;
+  padding: 10px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#list li span {
+  font-size: 16px;
+  color: #eee;
+  flex-grow: 1;
+}
+
+#list li button {
+  padding: 5px 10px;
+  background-color: #555;
+  color: #eee;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style reorganise button */
+#orderList {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: #eee;
+  cursor: pointer;
+  float: right;
+}
+
+
